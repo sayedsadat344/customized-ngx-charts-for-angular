@@ -1,0 +1,33 @@
+
+<div class="container">
+  <div class="row">
+      <div class="col-12 text-center">
+        <h1>The graphs practice </h1>
+      </div>
+      <hr>  
+      <app-pie-area></app-pie-area> 
+
+      <div class="col-12">
+          <div class="row">
+            <div class="col-md-6 mx-1">
+              <app-vertical-bar [graph]="graphObject"></app-vertical-bar>   
+            </div>
+            <div class="col-md-5 mx-1">
+                <app-count-area 
+                  [graph]="graphObject"
+                >
+                </app-count-area>
+            </div>
+
+            <div class="col-md-6 mx-1">
+              the pi
+             
+            </div>
+
+            
+          </div>
+      </div>
+    
+  </div>
+
+</div>
